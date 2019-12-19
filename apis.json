@@ -1,0 +1,47 @@
+{
+    "name": "MoBagel",
+    "description": "<p>MoBagel is a real-time cloud analytics platform that helps IoT companies monitor and analyze hardware usage, speed up research and development, forecast sales and marketing strategies, and proactively engage with customers to prevent product returns. As a result, companies can also save up to millions in cost reductions.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/mobagel-logo.png",
+    "tags": [
+        "analysis",
+        "api provider",
+        "api service provider",
+        "have api",
+        "internet of things"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/mobagel\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "MoBagel",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/mobagel-logo.png",
+            "humanURL": "https:\/\/mobagel.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/mobagel-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/MOBAGEL"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/mobagel"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/mobagel.com\/"
+        }
+    ]
+}
