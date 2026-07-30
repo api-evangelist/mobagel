@@ -1,7 +1,17 @@
 aid: mobagel
 name: Mobagel
-description: Mobagel is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MoBagel is an AI and automated machine learning (AutoML) company founded in
+  2015 and headquartered in San Jose, California, with offices across seven
+  global locations. Its flagship Decanter AI platform lets business users build
+  machine learning models and generate predictions without a data science
+  background, spanning AutoML, automated time-series forecasting (AutoTSF),
+  MLOps, DataOps, and a generative-BI suite (Generative BI, Generative ETL,
+  Generative Expert) now surfaced through the 8ndpoint product and a family of
+  vertical AI agents for marketing, supply chain, finance, and manufacturing.
+  MoBagel exposes Decanter AI programmatically through an official first-party
+  Python SDK (decanter-ai-sdk) that authenticates with an API key and drives
+  data upload, model training, and prediction. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/mobagel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- AutoML
+- Data Science
+- Predictive Analytics
+- Business Intelligence
+- MLOps
+image: https://cdn.prod.website-files.com/67205451fb764a57c45b16fd/6837ce4db49cc91f524bfb72_logo%20m.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mobagel-domain-security.yml
 - type: Website
   url: https://mobagel.com
+- type: Packages
+  url: packages/mobagel-packages.yml
+- type: SDKs
+  url: packages/mobagel-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/MoBagel
+- type: Login
+  url: https://app.8ndpoint.com
+- type: Support
+  url: https://us.mobagel.com/contact
+- type: TermsOfService
+  url: https://us.mobagel.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://us.mobagel.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
