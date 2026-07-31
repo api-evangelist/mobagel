@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/decanter-ai-sdk/ ; https://github.com/MoBagel
+packages:
+- language: python
+  registry: pypi
+  name: decanter-ai-sdk
+  url: https://pypi.org/project/decanter-ai-sdk/
+  repo: https://github.com/MoBagel/decanter-ai-sdk
+  install: pip install decanter-ai-sdk
+  version: 0.1.21
+  official: true
+  description: Official Python SDK for MoBagel Decanter AI AutoML. Integrate data
+    upload, model training, and prediction into Python applications; authenticates
+    with an API auth_key against a Decanter AI host.
+- language: python
+  registry: pypi
+  name: decanter-ai-core-sdk
+  url: https://pypi.org/project/decanter-ai-core-sdk/
+  repo: https://github.com/MoBagel/decanter-ai-core-sdk
+  install: pip install decanter-ai-core-sdk
+  version: 1.1.11
+  official: true
+  deprecated: true
+  description: Deprecated first-party Python SDK for the Decanter Core API (superseded
+    by decanter-ai-sdk).
