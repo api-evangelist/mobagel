@@ -47,7 +47,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AutoML
 - Data Science
 - Predictive Analytics
@@ -62,6 +62,7 @@ tags_raw:
 - Predictive Analytics
 - Business Intelligence
 - MLOps
+- Machine-Learning
 image: https://cdn.prod.website-files.com/67205451fb764a57c45b16fd/6837ce4db49cc91f524bfb72_logo%20m.png
 apis: []
 maintainers:
